@@ -1,0 +1,191 @@
+{
+    "00":{
+        "TITLE1":{
+             "method": "create_label",
+             "label" : "TITLE1"
+        }
+     },
+ 
+    "01":{
+       "param1":{
+            "method": "create_entry_filedialog",
+            "label" : "param1",
+            "defvalue": "init_data",
+            "state":"normal"
+       }
+    },
+   "02":{
+       "param2":{
+            "method": "create_entry",
+            "label":"param2",
+            "defvalue": "AAA" ,
+            "state": "normal"
+       }
+    },
+    "03":{
+            "param3":{
+            "method":"create_spinbox",
+            "label":"param3",
+            "list": ["90","100","110","125"],
+            "defvalue":"100",
+            "state":"normal"
+            }
+    },
+    "04":{
+    "param4":{
+        "method":"create_listbox",
+        "label":"param4",
+        "list":["AAA","BBB","CCC","DDD","EEE"],
+        "defvalue":0,
+        "state":"normal"
+    }
+    },
+    "05":{
+    "param5":{
+        "method":"create_checkbutton",
+        "label":"param5",
+        "bottuon_label":"DDD",
+        "defvalue":"true",
+        "state":"normal"
+    }
+    },
+    "06":{
+    "param6":{
+        "method":"create_radiobutton",
+        "label":"param6",
+        "list":["RAAA","RBBB","RCCC"],
+        "defvalue":2,
+        "state":"normal"
+    }
+    },
+    "10":{
+        "TITLE2":{
+             "method": "create_label",
+             "label" : "readonly"
+        }
+    },
+    "11":{
+    "param11":{
+        "method":"create_entry_filedialog",
+        "label":"param11",
+        "defvalue":"p11",
+        "state":"readonly"
+    }
+    },
+    "12":{
+    "param12":{
+        "method":"create_entry",
+        "label":"param12 label",
+        "defvalue":"p12",
+        "state":"readonly"
+    }
+    },
+    "13":{
+        "param13":{
+        "method":"create_spinbox",
+        "label":"param22",
+        "list": ["90","100","110","125"],
+        "defvalue":"100",
+        "state":"readonly"
+        }
+    },
+    "//":{
+        "// readonly is not support in listbox" :{
+            "method":"create_listbox",
+            "label":"param14",
+            "list":["AAA","BBB","CCC","DDD","EEE"],
+            "defvalue":1,
+            "state":"readonly"
+        }
+    },    
+    "//":{
+        "// readonly is not support in checkbutton":{
+            "method":"create_checkbutton",
+            "label":"param15",
+            "bottuon_label":"EEE",
+            "defvalue":"true",
+            "state":"readonly"
+        }
+   },
+   "//":{
+        "// readonly is not support":{
+            "method":"create_radiobutton",
+            "label":"param16",
+            "list":["111","2222","3333"],
+            "defvalue":1,
+            "state":"readpnly"
+        }
+    },
+    "20":{
+        "TITLE3":{
+             "method": "create_label",
+             "label" : "disable"
+        }
+    },    
+    "21":{
+        "param21":{
+            "method":"create_entry_filedialog",
+            "label":"param21",
+            "defvalue":"p11",
+            "state":"disabled"
+        }
+    },
+    "22":{
+        "param22":{
+            "method":"create_entry",
+            "label":"param22",
+            "defvalue":"p22",
+            "state":"disabled"
+        }
+    },
+    "23":{
+        "param23":{
+        "method":"create_spinbox",
+        "label":"param23",
+        "list": ["90","100","110","125"],
+        "defvalue":"100",
+        "state":"disabled"
+        }
+    },
+    "24":{
+        "param24":{
+            "method":"create_listbox",
+            "label":"param24",
+            "list":["AAA","BBB","CCC","DDD","EEE"],
+            "defvalue":1,
+            "state":"disabled"
+        }
+    },    
+    "25":{
+        "param25":{
+            "method":"create_checkbutton",
+            "label":"param25",
+            "bottuon_label":"EEE",
+            "defvalue":"true",
+            "state":"disabled"
+        }
+   },
+   "26":{
+        "param26":{
+            "method":"create_radiobutton",
+            "label":"param26",
+            "list":["111","2222","3333"],
+            "defvalue":1,
+            "state":"disabled"
+        }
+    },
+    "27":{
+        "TITLE3":{
+            "method": "create_label",
+            "label" : "Button"
+       }
+    },
+    "28":{
+        "param28":{
+            "method":"create_button",
+            "label":"param28",
+            "btnlabel":"run_explore",
+            "cmd": "explorer.exe"
+        }
+    }
+}
